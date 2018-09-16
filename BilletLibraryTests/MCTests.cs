@@ -8,6 +8,20 @@ namespace BilletLibraryTests
     public class MCTests
     {
         /// <summary>
+        /// Test dato på MC
+        /// </summary>
+        [TestMethod]
+        public void MCDatoTest()
+        {
+            //Arrange
+            MC mc = new MC();
+            //Act
+            mc.Dato = DateTime.Today;
+            //Assert
+            Assert.AreEqual(mc.Dato, DateTime.Today);
+        }
+
+        /// <summary>
         /// Test pris på MC
         /// </summary>
         [TestMethod]
@@ -19,6 +33,20 @@ namespace BilletLibraryTests
             decimal pris = 125;
             //Assert
             Assert.AreEqual(mc.Pris(), pris);
+        }
+
+        /// <summary>
+        /// Test nummerplade på MC
+        /// </summary>
+        [TestMethod]
+        public void MCNummerpladeTest()
+        {
+            //Arrange
+            MC mc = new MC();
+            //Act
+            mc.Nummerplade = "AD14562";
+            //Assert
+            Assert.AreEqual(mc.Nummerplade, "AD14562");
         }
 
         /// <summary>
@@ -40,7 +68,7 @@ namespace BilletLibraryTests
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void MCNummerpladeTest()
+        public void MCNummerpladeMaxTest()
         {
             //Arrange
             MC mc = new MC();
@@ -48,6 +76,29 @@ namespace BilletLibraryTests
             mc.Nummerplade = "12345678";
             //Assert
             Assert.Fail();
+        }
+
+        [TestMethod]
+        public void MCBrobizzTest()
+        {
+            //Arrange
+            MC mc = new MC();
+            //Act
+            mc.Brobizz = true;
+            var pris = 118.75;
+            //Assert - delta er den maksimale godkendte forskel fra det forventede resultat.
+            Assert.AreEqual(Convert.ToDouble(mc.TotalPris()), pris,0.001);
+        }
+
+        [TestMethod]
+        public void MCIngenBrobizzTest()
+        {
+            //Arrange
+            MC mc = new MC();
+            //Act
+            var pris = 125;
+            //Assert - delta er den maksimale godkendte forskel fra det forventede resultat.
+            Assert.AreEqual(Convert.ToDouble(mc.TotalPris()), pris, 0.001);
         }
     }
 }

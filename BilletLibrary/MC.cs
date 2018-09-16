@@ -6,12 +6,9 @@ namespace BilletLibrary
 {
     public class MC : Køretøj
     {
-
-        /// <inheritdoc />
         public override DateTime Dato { get; set; }
 
 
-        /// <inheritdoc />
         public override decimal Pris()
         {
             return 125;
