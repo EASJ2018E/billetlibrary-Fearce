@@ -6,10 +6,23 @@ namespace BilletLibrary
 {
     public abstract class Køretøj
     {
+        private string _nummerplade;
+
         /// <summary>
-        /// Property til nummerplade
+        /// Property til nummerplade - maks 7 i længde
         /// </summary>
-        public abstract string Nummerplade { get; set; }
+        public virtual string Nummerplade
+        {
+            get => _nummerplade;
+            set
+            {
+                _nummerplade = value;
+                if (_nummerplade.Length > 7)
+                {
+                    throw new ArgumentOutOfRangeException("Nummerplade må ikke være længere end 7 tegn");
+                }
+            }
+        }
 
         /// <summary>
         /// Property til dato

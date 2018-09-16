@@ -6,6 +6,9 @@ namespace BilletLibraryTests
     [TestClass]
     public class BilTests
     {
+        /// <summary>
+        /// Test pris på Bil
+        /// </summary>
         [TestMethod]
         public void BilPrisTest()
         {
@@ -17,6 +20,10 @@ namespace BilletLibraryTests
             Assert.AreEqual(bil.Pris(), pris);
         }
 
+
+        /// <summary>
+        /// Test type på Bil
+        /// </summary>
         [TestMethod]
         public void BilKøretøjTest()
         {

@@ -7,9 +7,6 @@ namespace BilletLibrary
     public class Bil : Køretøj
     {
         /// <inheritdoc />
-        public override string Nummerplade { get; set; }
-
-        /// <inheritdoc />
         public override DateTime Dato { get; set; }
 
 
