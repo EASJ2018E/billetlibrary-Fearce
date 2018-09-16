@@ -10,7 +10,7 @@ namespace BilletLibrary
         private decimal _pris;
 
         /// <summary>
-        /// Property til nummerplade - maks 7 i længde
+        /// Property til nummerplade - maks 7 i længde, string
         /// </summary>
         public virtual string Nummerplade
         {
@@ -26,12 +26,12 @@ namespace BilletLibrary
         }
 
         /// <summary>
-        /// Property til dato
+        /// Property til dato, DateTime
         /// </summary>
         public abstract DateTime Dato { get; set; }
 
         /// <summary>
-        /// Property til brobizz
+        /// Property til brobizz, Bool
         /// </summary>
         public bool Brobizz { get; set; }
 
