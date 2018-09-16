@@ -1,3 +1,4 @@
+using System;
 using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -33,6 +34,21 @@ namespace BilletLibraryTests
             string køretøj = "Bil";
             //Assert
             Assert.AreEqual(bil.KøretøjType(), køretøj);
+        }
+
+        /// <summary>
+        /// Test for at sikre sig at nummerpladen maks kan være 7 tegn
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void BilNummerpladeTest()
+        {
+            //Arrange
+            Bil bil = new Bil();
+            //Act
+            bil.Nummerplade = "12345678";
+            //Assert
+            Assert.Fail();
         }
     }
 }
