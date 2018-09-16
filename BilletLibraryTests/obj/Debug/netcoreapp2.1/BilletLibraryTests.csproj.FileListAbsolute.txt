@@ -1,0 +1,17 @@
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibraryTests.deps.json
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibraryTests.runtimeconfig.json
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibraryTests.runtimeconfig.dev.json
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibraryTests.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibraryTests.pdb
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibrary.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\bin\Debug\netcoreapp2.1\BilletLibrary.pdb
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.csprojAssemblyReference.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.csproj.CoreCompileInputs.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.AssemblyInfoInputs.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.AssemblyInfo.cs
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.csproj.CopyComplete
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibraryTests\obj\Debug\netcoreapp2.1\BilletLibraryTests.pdb

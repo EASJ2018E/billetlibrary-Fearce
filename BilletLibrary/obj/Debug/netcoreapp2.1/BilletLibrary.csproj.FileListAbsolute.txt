@@ -1,0 +1,9 @@
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.deps.json
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.pdb
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.csprojAssemblyReference.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.csproj.CoreCompileInputs.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.AssemblyInfoInputs.cache
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.AssemblyInfo.cs
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.dll
+C:\Users\theke\source\repos\billetlibrary-Fearce\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.pdb
