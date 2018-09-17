@@ -8,6 +8,10 @@ namespace BilletLibrary
     {
         /// <inheritdoc />
         public override DateTime Dato { get; set; }
+
+        /// <inheritdoc />
+        public override bool Brobizz { get; set; }
+
         /// <inheritdoc />
         public override decimal Pris()
         {

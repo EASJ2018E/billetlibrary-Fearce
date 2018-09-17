@@ -33,7 +33,7 @@ namespace BilletLibrary
         /// <summary>
         /// Property til brobizz, Bool
         /// </summary>
-        public bool Brobizz { get; set; }
+        public abstract bool Brobizz { get; set; }
 
         /// <summary>
         /// Køretøjets pris

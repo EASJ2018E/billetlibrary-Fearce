@@ -1,2 +1,7 @@
 
 *.lock
+.vs/BilletLibrary/DesignTimeBuild/.dtbcache
+.vs/BilletLibrary/v15/.suo
+*.ide
+*.ide-shm
+*.ide-wal
