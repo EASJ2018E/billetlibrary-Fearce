@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theke\\.nuget\\packages\\": {},
+    "C:\\Users\\skaer\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theke\\source\\repos\\billetlibrary-Fearce\\BilletLibrary\\BilletLibrary.csproj",
+      "projectUniqueName": "C:\\source\\FeedBack\\billetlibrary-Fearce\\BilletLibrary\\BilletLibrary.csproj",
       "projectName": "BilletLibrary",
-      "projectPath": "C:\\Users\\theke\\source\\repos\\billetlibrary-Fearce\\BilletLibrary\\BilletLibrary.csproj",
-      "packagesPath": "C:\\Users\\theke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theke\\source\\repos\\billetlibrary-Fearce\\BilletLibrary\\obj\\",
+      "projectPath": "C:\\source\\FeedBack\\billetlibrary-Fearce\\BilletLibrary\\BilletLibrary.csproj",
+      "packagesPath": "C:\\Users\\skaer\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\FeedBack\\billetlibrary-Fearce\\BilletLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\theke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\skaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

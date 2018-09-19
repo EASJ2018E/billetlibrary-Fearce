@@ -84,10 +84,10 @@ namespace BilletLibraryTests
             //Arrange
             MC mc = new MC();
             //Act
-            mc.Brobizz = true;
-            var pris = 118.75;
+            mc.Brobizz = true;             //test ændret fra convert to double til at teste med decimal. Der bliver ikke længere testet på double delta
+            //var pris = 118.75;
             //Assert - delta er den maksimale godkendte forskel fra det forventede resultat.
-            Assert.AreEqual(Convert.ToDouble(mc.TotalPris()), pris,0.001);
+            Assert.AreEqual(118.75m, mc.TotalPris());
         }
 
         [TestMethod]
@@ -96,9 +96,10 @@ namespace BilletLibraryTests
             //Arrange
             MC mc = new MC();
             //Act
-            var pris = 125;
+            mc.Brobizz = false;            //test ændret fra convert to double til at teste med decimal. Der bliver ikke længere testet på double delta
+            //var pris = 125;
             //Assert - delta er den maksimale godkendte forskel fra det forventede resultat.
-            Assert.AreEqual(Convert.ToDouble(mc.TotalPris()), pris, 0.001);
+            Assert.AreEqual(125, mc.TotalPris());
         }
     }
 }
